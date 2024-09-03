@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Web App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/items.css') }}">
+</head>
+<body>
+    <h1>Items</h1>
+    {% for item in items %}
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+    {% endfor %}
+    <a href="/">Back to Home</a>
+</body>
+</html>
