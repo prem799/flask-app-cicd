@@ -28,6 +28,3 @@ git clone https://github.com/0xd4ydream/ci-cd-pipeline-flask-app.git
 
 5. Push your Flask web application code to the repository, and the pipeline will automatically trigger the build, test, and deployment steps.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
